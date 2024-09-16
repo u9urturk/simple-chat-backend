@@ -1,0 +1,75 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+/.pnp
+.pnp.js
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug output
+debug.log*
+out.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Ignore compiled JavaScript files
+*.js
+*.js.map
+*.d.ts
+
+# Ignore cache from tools like babel or eslint
+.cache/
+
+# Testing coverage
+coverage/
+
+# Dependency locks
+package-lock.json
+yarn.lock
+
+# Ignore IDE config and settings files
+.vscode/
+.idea/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore ESLint cache
+.eslintcache
+
+# Ignore Jest cache and output
+jest/
